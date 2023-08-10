@@ -4,7 +4,7 @@
 
 int main (int argc,char **argv[])
 {
-	setlocale(LC_ALL,"");\Para colocar caracteres especiales
+	setlocale(LC_ALL,"");/*Para colocar caracteres especiales*/
 	
 	printf("Primera Generación (1940-1956)\n");
 	printf("Características: \n");
