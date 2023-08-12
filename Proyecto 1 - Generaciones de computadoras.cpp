@@ -28,7 +28,7 @@ int main (int argc,char **argv[])
     printf("| %-10s | %-7d |\n", "Blanco", 6);
     printf("| %-10s | %-7s |\n", "Negro","-");
  printf("Introduzca su número por favor =):");
- scanf("%d",&clave);//Solucitar número
+ scanf("%d",&clave);//Solicitar número
  
 switch (clave){ /*Instrucciones dependiendo el número elegido
 
