@@ -7,7 +7,7 @@
 
 int main (int argc,char **argv[])
 {
-	setlocale(LC_ALL,"");//Para colocar caracteres especiales
+	setlocale(LC_ALL,"spanish");//Para colocar caracteres especiales
 	/*system("cls"); //Para colocar color de letras (error con la otra forma)*/
 	
 	int clave;//Variable para ingresar después y seleccionar número
