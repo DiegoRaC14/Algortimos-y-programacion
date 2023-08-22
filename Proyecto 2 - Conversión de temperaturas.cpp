@@ -22,7 +22,7 @@ int main ()
  	/*Letras aparecen poco a poco*/
 	char titulo[]={"\v\t\t\t\t°F <---> °C\a\v"};//Variable de texto. \a = sonido
 	int i=0;//Declarar variable entera
-	for(i=0;i<18;i++){//Bucle que comienza en 0 e incrementa su valor siempre que sea menor que 1
+	for(i=0;i<18;i++){//Bucle que comienza en 0 e incrementa su valor siempre que sea menor que 18
 		printf("%c ",titulo[i]);
 		Sleep(100);//Pausa la ejecución 100 milisegundos
 	}
