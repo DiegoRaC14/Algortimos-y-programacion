@@ -7,7 +7,7 @@ int main ()
 	setlocale(LC_ALL, "");//Agregar idiomas
 	
 	int a;//Variable declarada para ingresar después
-	char opc;
+	char opc;//Variable usada para do-while
 	
 	do //Para correr el programa una vez y a partir de aquí volver a correrlo si se cumple 'while'
 	{
