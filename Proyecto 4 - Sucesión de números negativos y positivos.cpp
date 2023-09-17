@@ -5,14 +5,14 @@ int main (){
 	
 	setlocale(LC_ALL,"");//Para colocar caracteres especiales
 	int i;//Variable de control
-	int potencia1;
-	int potencia2;
+	int num1;
+	int num2;
 	
 	printf("Sucesión de números negativos y positivos del 1 al 5:\n\n");
 	for (i=1;i<=5;i++){
-		potencia1 = i*(1);
-		potencia2 = i*(-1);
-		printf("%d, %d, ",potencia1, potencia2);
+		num1 = i*(1);
+		num2 = i*(-1);
+		printf("%d, %d, ", num1, num2);
 	}
 
 	return 0;
